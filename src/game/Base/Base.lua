@@ -1,0 +1,5 @@
+require 'game/Base/Shared'
+require 'game/Base/Manager'
+require 'game/Base/Entity'
+require 'game/Base/Control'
+require 'game/Base/Screen'
