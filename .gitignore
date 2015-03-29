@@ -1,0 +1,7 @@
+/xcuserdata
+/*.xcuserdatad
+/xcschemes
+xcschememanagement.plist
+*.xcscheme
+*.xcuserstate
+*.xcworkspace
