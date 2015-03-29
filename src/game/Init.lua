@@ -22,11 +22,17 @@ function initScene()
 	SceneManager:shared():requireScreen('DebugScreen', 1000)
 	SceneManager:shared():requireScreen('MenuScreen',  5)
 
+	if (facebook.isLoggedIn() == true) then
+		SceneManager:shared():startScene('MainMenuScreen')
+	else
+		SceneManager:shared():startScene('StartScreen')
+	end
+
 --	SceneManager:shared():startScene('StartScreen')
 --	SceneManager:shared():startScene('CreateGameScreen')
 --	SceneManager:shared():startScene('JoinGameScreen')
 --	SceneManager:shared():startScene('MainMenuScreen')
-	SceneManager:shared():startScene('GameScreen')
+--	SceneManager:shared():startScene('GameScreen')
 
 --	SceneManager:shared():startScene('TestInterfaceOrientation')
 --	SceneManager:shared():startScene('TestMenuElements')

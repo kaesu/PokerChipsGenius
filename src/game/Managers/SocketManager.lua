@@ -8,11 +8,9 @@ local DEFAULT_URL = 'http://lobby.pokerchipsapp.net:8088/game'
 
 function SocketManager:onInit()
 	self.info.listeners = {}
-
---	self:testConnect()
 end
 
-function SocketManager:testConnect()
+function SocketManager:connectWebSocket()
 	local wsSendText = cc.WebSocket:create(DEFAULT_URL)
 
 	local function wsSendTextOpen(strData)
@@ -42,7 +40,7 @@ function SocketManager:testConnect()
 	end
 end
 
-function SocketManager:testConnect()
+function SocketManager:connectSocketIO()
 	local function onOpen()
 		print('cc.SIOClient.onOpen')
 		self.info.client:emit("test","test")

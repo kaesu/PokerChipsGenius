@@ -482,12 +482,11 @@
 		1551A334158F2AB200E66CFE = {
 			isa = PBXGroup;
 			children = (
-				C0D9BAFA1974D30000EC35BB /* liblua.a */,
 				1ABCA1E218CD8F230087CE3A /* external */,
 				1AACE74818BC45C200215002 /* auto */,
 				1AACE75B18BC45C200215002 /* manual */,
-				15C1C2CC198748D200A46ACC /* libluacocos2d Mac.a */,
-				15EFA616198B2DAA000C57D3 /* libluacocos2d iOS.a */,
+				7B686E161AC777B90057BD85 /* Frameworks */,
+				7B686E181AC778070057BD85 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -788,6 +787,23 @@
 				3E2BDB0919C5E6100055CDCD /* lua_cocos2dx_audioengine_manual.h */,
 			);
 			path = audioengine;
+			sourceTree = "<group>";
+		};
+		7B686E161AC777B90057BD85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D9BAFA1974D30000EC35BB /* liblua.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B686E181AC778070057BD85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EFA616198B2DAA000C57D3 /* libluacocos2d iOS.a */,
+				15C1C2CC198748D200A46ACC /* libluacocos2d Mac.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F4FE0D5B19ECD02400B8B12B /* quick */ = {

@@ -12,6 +12,12 @@
 #include "audioengine/lua_cocos2dx_audioengine_manual.h"
 #include "lua/quick/lua_cocos2dx_quick_manual.hpp"
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    #include "lua_cocos2dx_pluginx_auto.hpp"
+    #include "lua_pluginx_manual_callback.h"
+    #include "lua_pluginx_manual_protocols.h"
+#endif
+
 int lua_module_register(lua_State* L)
 {
     //Dont' change the module register order unless you know what your are doing
@@ -24,6 +30,13 @@ int lua_module_register(lua_State* L)
     register_spine_module(L);
     register_cocos3d_module(L);
     register_audioengine_module(L);
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    register_all_pluginx_protocols(L);
+    register_all_pluginx_manual_callback(L);
+    register_all_pluginx_manual_protocols(L);
+#endif
+
     return 1;
 }
 
