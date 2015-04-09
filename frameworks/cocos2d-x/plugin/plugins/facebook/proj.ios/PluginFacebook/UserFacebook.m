@@ -99,7 +99,7 @@ NSString *_accessToken = @"";
     return [FBSettings sdkVersion];
 }
 - (void) setSDKVersion: (NSString *)sdkVersion{
-    [FBSettings setsdkVersion:sdkVersion];
+//    [FBSettings setsdkVersion:sdkVersion];
 }
 - (NSString*) getPluginVersion{
     return @"";
