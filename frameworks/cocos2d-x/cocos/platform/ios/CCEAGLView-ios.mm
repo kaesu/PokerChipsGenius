@@ -784,7 +784,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
     end = CGRectApplyAffineTransform(end, CGAffineTransformScale(CGAffineTransformIdentity, self.contentScaleFactor, self.contentScaleFactor));
     
     float offestY = glview->getViewPortRect().origin.y;
-    CCLOG("offestY = %f", offestY);
+//    CCLOG("offestY = %f", offestY);
     if (offestY < 0.0f)
     {
         begin.origin.y += offestY;

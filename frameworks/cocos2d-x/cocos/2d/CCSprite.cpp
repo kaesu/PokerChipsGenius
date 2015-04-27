@@ -1065,9 +1065,11 @@ void Sprite::setMaskTexture(Texture2D * texture)
         }
         else {
             auto glprogramstate = GLProgramState::getOrCreateWithGLProgramName(GLProgram::SHADER_NAME_MASK);
-            glprogramstate->setUniformTexture("u_texture", _texture);
-            glprogramstate->setUniformTexture("u_mask",    _maskTexture);
-            setGLProgramState(glprogramstate);
+
+            GLProgramState * state = GLProgramState::create(glprogramstate->getGLProgram());
+            state->setUniformTexture("u_texture", _texture);
+            state->setUniformTexture("u_mask",    _maskTexture);
+            setGLProgramState(state);
         }
     }
 }

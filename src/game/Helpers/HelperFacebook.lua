@@ -1,9 +1,22 @@
 assert(facebook == nil)
 facebook = {
-	login = function(onEnd)
-		assert(types.isFunction(onEnd))
+	login = function(...) -- (onEnd) or (permissions, onEnd)
+		local args = {...}
+		if (#args == 1) then
+			assert(types.isFunction(args[1]))
+		elseif (#args == 2) then
+			assert(types.isString(args[1]))
+			assert(types.isFunction(args[2]))
+		else
+			assert(false)
+		end
 		if (plugin ~= nil) then
-			plugin.FacebookAgent:getInstance():login(onEnd)
+			plugin.FacebookAgent:getInstance():login(...)
+		end
+	end,
+	logout = function()
+		if (plugin ~= nil) then
+			plugin.FacebookAgent:getInstance():logout()
 		end
 	end,
 	isLoggedIn = function()

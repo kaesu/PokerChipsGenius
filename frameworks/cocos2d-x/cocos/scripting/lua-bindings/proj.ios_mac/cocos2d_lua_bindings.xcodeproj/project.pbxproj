@@ -485,8 +485,8 @@
 				1ABCA1E218CD8F230087CE3A /* external */,
 				1AACE74818BC45C200215002 /* auto */,
 				1AACE75B18BC45C200215002 /* manual */,
-				7B686E161AC777B90057BD85 /* Frameworks */,
-				7B686E181AC778070057BD85 /* Products */,
+				7B656EDA1AC7506B00DBBEF2 /* Frameworks */,
+				7B656ED91AC7503B00DBBEF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -789,21 +789,21 @@
 			path = audioengine;
 			sourceTree = "<group>";
 		};
-		7B686E161AC777B90057BD85 /* Frameworks */ = {
+		7B656ED91AC7503B00DBBEF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C1C2CC198748D200A46ACC /* libluacocos2d Mac.a */,
+				15EFA616198B2DAA000C57D3 /* libluacocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B656EDA1AC7506B00DBBEF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C0D9BAFA1974D30000EC35BB /* liblua.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7B686E181AC778070057BD85 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				15EFA616198B2DAA000C57D3 /* libluacocos2d iOS.a */,
-				15C1C2CC198748D200A46ACC /* libluacocos2d Mac.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F4FE0D5B19ECD02400B8B12B /* quick */ = {

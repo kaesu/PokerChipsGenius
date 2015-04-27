@@ -48,6 +48,7 @@ static int SendBinaryMessageToLua(int handler,const unsigned char* pTable,int nL
 
 LuaSIOClient::LuaSIOClient()
 {
+    printf("LuaSIOClient constructor\n");
 }
 
 void LuaSIOClient::setClient(cocos2d::network::SIOClient* client)
@@ -59,6 +60,7 @@ LuaSIOClient::~LuaSIOClient()
 {
     _client->setDelegate(nullptr);
     ScriptHandlerMgr::getInstance()->removeObjectAllHandlers((void*)this);
+    printf("LuaSIOClient destructor\n");
 }
 
 void LuaSIOClient::send(std::string& message)

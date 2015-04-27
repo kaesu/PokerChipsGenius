@@ -108,7 +108,7 @@ function SaveManager:loadData()
 end
 
 function SaveManager:saveData()
-	self:checkDirectory()
+	self:checkDirectory(self:getSavingsDirectoryPath())
 
 	local str = ''
 	for key,value in pairs(self.info.data) do
@@ -126,8 +126,8 @@ end
 
 ------------------------------------------------------------------------------------------
 
-function SaveManager:checkDirectory()
-	local directoryPath = self:getSavingsDirectoryPath()
+function SaveManager:checkDirectory(directoryPath)
+	assert(types.isString(directoryPath))
 	if (false == cc.FileUtils:getInstance():isDirectoryExist(directoryPath)) then
 		cc.FileUtils:getInstance():createDirectory(directoryPath)
 	end
@@ -203,6 +203,29 @@ function SaveManager:getString(tag, domain)
         return ''
     end
 	return convert.toString(data)
+end
+
+------------------------------------------------------------------------------------------
+
+function SaveManager:saveFileData(directory, filename, data)
+	assert(types.isString(filename))
+	assert(types.isString(data))
+	assert(string.len(filename) > 1)
+	assert(string.len(data) > 1)
+
+	directory = directory and (directory .. '/') or ''
+	local directoryPath = self:getSavingsDirectoryPath() .. directory
+	self:checkDirectory(directoryPath)
+
+	local path = directoryPath .. filename
+
+	local res = cc.FileUtils:getInstance():writeStringToFile(data, path)
+	if (res == true) then
+		print('SAVE {' .. filename .. '} OK')
+	else
+		print('SAVE {' .. filename .. '} FAIL')
+	end
+	return res
 end
 
 ------------------------------------------------------------------------------------------

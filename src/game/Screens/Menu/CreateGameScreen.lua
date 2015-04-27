@@ -8,10 +8,10 @@ function CreateGameScreen:onInit()
 	SceneManager:shared():getScreenNamed('MenuScreen'):setLButtonStyle('arrow')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setRButtonStyle('accept')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnLButtonClick(function()
-		startScene('MainMenuScreen')
+		SceneManager:shared():startScene('MainMenuScreen')
 	end)
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnRButtonClick(function()
-		startScene('CreateGameScreen2')
+		SceneManager:shared():startScene('CreateGameScreen2')
 	end)
 end
 

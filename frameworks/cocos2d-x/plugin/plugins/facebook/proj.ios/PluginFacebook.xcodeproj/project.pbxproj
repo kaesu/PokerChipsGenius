@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BD0C0201AD70A4100380667 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD0C01F1AD70A4100380667 /* FacebookSDK.framework */; };
+		7B39C4331AD6FF2E00F70DC8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B39C4321AD6FF2E00F70DC8 /* FacebookSDK.framework */; };
 		BA34A761195AA8C7002D0ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA34A760195AA8C7002D0ECD /* Foundation.framework */; };
 		BA34A79E195AA939002D0ECD /* ShareFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34A79B195AA939002D0ECD /* ShareFacebook.m */; };
 		BA34A79F195AA939002D0ECD /* UserFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34A79D195AA939002D0ECD /* UserFacebook.m */; };
@@ -26,7 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7BD0C01F1AD70A4100380667 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		7B39C42B1AD6FEBF00F70DC8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
+		7B39C4321AD6FF2E00F70DC8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		BA34A75D195AA8C7002D0ECD /* libPluginFacebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginFacebook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA34A760195AA8C7002D0ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA34A764195AA8C7002D0ECD /* PluginFacebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PluginFacebook-Prefix.pch"; sourceTree = "<group>"; };
@@ -41,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD0C0201AD70A4100380667 /* FacebookSDK.framework in Frameworks */,
+				7B39C4331AD6FF2E00F70DC8 /* FacebookSDK.framework in Frameworks */,
 				BA34A761195AA8C7002D0ECD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +70,8 @@
 		BA34A75F195AA8C7002D0ECD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7BD0C01F1AD70A4100380667 /* FacebookSDK.framework */,
+				7B39C4321AD6FF2E00F70DC8 /* FacebookSDK.framework */,
+				7B39C42B1AD6FEBF00F70DC8 /* FacebookSDK.framework */,
 				BA34A760195AA8C7002D0ECD /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -225,11 +227,13 @@
 		BA34A781195AA8C7002D0ECD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/PluginFacebook.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
 					"$(PROJECT_DIR)",
+					"/Users/sutanisurawu/Documents/Projects/PokerDiscovery/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PluginFacebook/PluginFacebook-Prefix.pch";
@@ -244,11 +248,13 @@
 		BA34A782195AA8C7002D0ECD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/PluginFacebook.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/sdk",
 					"$(PROJECT_DIR)",
+					"/Users/sutanisurawu/Documents/Projects/PokerDiscovery/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PluginFacebook/PluginFacebook-Prefix.pch";

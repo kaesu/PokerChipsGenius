@@ -4,6 +4,12 @@
 #include "cocos2d.h"
 #include "lua_module_register.h"
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "lua_cocos2dx_pluginx_auto.hpp"
+#include "lua_pluginx_extension_registration.h"
+#endif
+
+
 using namespace CocosDenshion;
 
 USING_NS_CC;

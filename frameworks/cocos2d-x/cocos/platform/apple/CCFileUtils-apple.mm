@@ -467,19 +467,25 @@ bool FileUtilsApple::writeToFile(ValueMap& dict, const std::string &fullPath)
 
 bool FileUtilsApple::writeStringToFile(const std::string& str, const std::string &fullPath)
 {
-    NSString *s     = [NSString stringWithUTF8String:str.c_str()];
+//  NSString *s = [NSString stringWithFormat:@"%s", str.c_str()];
+//    NSString *s = [[NSString alloc] initWithBytes:str.c_str() length:str.length() encoding:NSUTF8StringEncoding];
+
+    NSData *data = [NSData dataWithBytes:str.c_str() length:str.length()];
+
     NSString *file  = [NSString stringWithUTF8String:fullPath.c_str()];
     NSLog(@"FileUtilsApple::writeStringToFile");
-    NSLog(@"    string: %@", s);
+    NSLog(@"    length: %d", (int)str.length());
     NSLog(@"    file: %@",   file);
 
-    NSError *err = [NSError errorWithDomain:@"" code:0 userInfo:nil];
-    bool ret = [s writeToFile:file atomically:YES encoding:NSUTF8StringEncoding error:&err];
-    if (!ret)
-    {
-        NSLog(@"%@ %d %@", [err domain], (int)[err code], [err localizedDescription]);
-    }
-    
+//    NSError *err = [NSError errorWithDomain:@"" code:0 userInfo:nil];
+//    bool ret = [s writeToFile:file atomically:YES encoding:NSUTF8StringEncoding error:&err];
+    bool ret = [data writeToFile:file atomically:YES];
+//    if (!ret)
+//    {
+//      NSLog(@"%@ %d %@", [err domain], (int)[err code], [err localizedDescription]);
+//      NSLog(@"failed");
+//    }
+
     return ret;
 }
 

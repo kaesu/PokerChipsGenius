@@ -14,7 +14,12 @@ HelperCocos = {
 		local sprite = nil
 		assert(size == nil or types.isSize(size))
 		if (types.isString(texture) and string.len(texture) > 0) then
-			sprite = cc.Sprite:create(TEXTURES_MAIN_FOLDER_NAME .. TEXTURES_DEFAULT_DESIGN_NAME .. texture)
+			local path = cc.FileUtils:getInstance():fullPathForFilename(texture)
+			if (false == cc.FileUtils:getInstance():isFileExist(path)) then
+				path = cc.FileUtils:getInstance():fullPathForFilename(TEXTURES_MAIN_FOLDER_NAME .. TEXTURES_DEFAULT_DESIGN_NAME .. texture)
+			end
+
+			sprite = cc.Sprite:create(path)
 			if (sprite ~= nil and types.isSize(size)) then
 				local contentSize = sprite:getContentSize()
 				if (contentSize.width > 0 and contentSize.height > 0) then

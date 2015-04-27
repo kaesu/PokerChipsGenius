@@ -10,7 +10,7 @@ function CreateGameScreen3:onInit()
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnLButtonClick(function()
 	end)
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnRButtonClick(function()
-		startScene('GameScreen')
+		SceneManager:shared():startScene('GameScreen')
 	end)
 
 	self:initButtonMultiplayer()

@@ -433,9 +433,6 @@ void GLProgramCache::loadDefaultGLProgram(GLProgram *p, int type)
                 p->initWithByteArrays((def + std::string(ccMask_vert)).c_str(), (def + std::string(ccMask_frag)).c_str());
             }
             break;
-            p = new GLProgram();
-            loadDefaultGLProgram(p, kShaderType_Mask);
-            _programs.insert(std::make_pair(GLProgram::SHADER_NAME_MASK, p));
 
         default:
             CCLOG("cocos2d: %s:%d, error shader type", __FUNCTION__, __LINE__);

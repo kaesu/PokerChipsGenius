@@ -202,7 +202,7 @@ void Application::setPreferredInterfaceOrientation(int preferredInterfaceOrienta
             [viewController performSelector:@selector(setPreferredInterfaceOrientation:) withObject:[NSNumber numberWithInt:preferredInterfaceOrientation]];
 
             [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
-            NSLog(@"rotate, prefer = %d, value = %d, was = %d", preferredInterfaceOrientation, [value intValue], [current intValue]);
+//            NSLog(@"rotate, prefer = %d, value = %d, was = %d", preferredInterfaceOrientation, [value intValue], [current intValue]);
 
             float screenScale = [[UIScreen mainScreen] scale];
             float newWidth  = viewController.view.frame.size.width  * screenScale;
@@ -215,7 +215,7 @@ void Application::setPreferredInterfaceOrientation(int preferredInterfaceOrienta
     }
     else
     {
-        NSLog(@"did not rotate, prefer = %d, value = %d, current = %d", preferredInterfaceOrientation, [value intValue], [current intValue]);
+//        NSLog(@"did not rotate, prefer = %d, value = %d, current = %d", preferredInterfaceOrientation, [value intValue], [current intValue]);
     }
 }
 

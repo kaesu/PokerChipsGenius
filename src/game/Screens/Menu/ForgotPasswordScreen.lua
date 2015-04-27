@@ -8,7 +8,7 @@ function ForgotPasswordScreen:onInit()
 	SceneManager:shared():getScreenNamed('MenuScreen'):setLButtonStyle('arrow')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setRButtonStyle('hidden')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnLButtonClick(function()
-		startScene('LoginWithEmailScreen')
+		SceneManager:shared():startScene('LoginWithEmailScreen')
 	end)
 	self.entities.edit_email:setText(SaveManager:shared():getString('EMAIL'))
 end

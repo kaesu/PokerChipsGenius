@@ -14,11 +14,11 @@ end
 ------------------------------------------------------------------------------------------
 
 function MainMenuScreen:onCreateClick()
-	startScene('CreateGameScreen')
+	SceneManager:shared():startScene('CreateGameScreen')
 end
 
 function MainMenuScreen:onJoinClick()
-	startScene('JoinGameScreen')
+	SceneManager:shared():startScene('JoinGameScreen')
 end
 
 function MainMenuScreen:onTellAFriendClick()

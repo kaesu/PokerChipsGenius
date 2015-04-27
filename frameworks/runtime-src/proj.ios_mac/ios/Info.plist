@@ -49,12 +49,6 @@
 	<string>1.0.14</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>14</string>
-	<key>FacebookAppID</key>
-	<string>672101116194146</string>
-	<key>FacebookDisplayName</key>
-	<string>PokerChipsGenius</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -64,6 +58,12 @@
 			</array>
 		</dict>
 	</array>
+	<key>CFBundleVersion</key>
+	<string>14</string>
+	<key>FacebookAppID</key>
+	<string>672101116194146</string>
+	<key>FacebookDisplayName</key>
+	<string>Poker Chips Genius</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchImages</key>

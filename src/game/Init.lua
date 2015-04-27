@@ -13,7 +13,7 @@ function init()
 	Random.init()
 	Managers.init()
 
-	PRINT("writable path: ", cc.FileUtils:getInstance():getWritablePath());
+--	PRINT("writable path: ", cc.FileUtils:getInstance():getWritablePath());
 
 	initScene()
 end

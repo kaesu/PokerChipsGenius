@@ -34,7 +34,6 @@
 		5023814117EBBCE400990C9B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D215EB7BE500256477 /* AudioToolbox.framework */; };
 		5023814217EBBCE400990C9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D415EB7BE500256477 /* AVFoundation.framework */; };
 		5023814417EBBCE400990C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293B3D815EB7BE500256477 /* Foundation.framework */; };
-		5023817617EBBE3400990C9B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5023817217EBBE3400990C9B /* icon.icns */; };
 		5023817A17EBBE8300990C9B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5023817917EBBE8300990C9B /* OpenGLES.framework */; };
 		50805AAF17EBBEAA004CFAD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50805AAE17EBBEAA004CFAD3 /* UIKit.framework */; };
 		5091733617ECE17A00D62437 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 5091733017ECE17A00D62437 /* Icon-29.png */; };
@@ -48,25 +47,15 @@
 		50D7C97017EBBEEC005D0B91 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7C96F17EBBEEC005D0B91 /* IOKit.framework */; };
 		521A8E6A19F0C3AC00D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6819F0C3AC00D177D7 /* Default-667h@2x.png */; };
 		521A8E6B19F0C3AC00D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6919F0C3AC00D177D7 /* Default-736h@3x.png */; };
-		7B686E261AC778B40057BD85 /* libPluginFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B686E251AC778820057BD85 /* libPluginFacebook.a */; };
-		7B686E271AC778B40057BD85 /* libPluginProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B686E1F1AC778670057BD85 /* libPluginProtocol.a */; };
-		7B686E291AC778C10057BD85 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B686E281AC778C10057BD85 /* GameController.framework */; };
-		7B686E421AC779E00057BD85 /* AgentManager.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E2E1AC779E00057BD85 /* AgentManager.lua */; };
-		7B686E431AC779E00057BD85 /* FacebookAgent.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E2F1AC779E00057BD85 /* FacebookAgent.lua */; };
-		7B686E441AC779E00057BD85 /* lua_cocos2dx_pluginx_auto_api.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E301AC779E00057BD85 /* lua_cocos2dx_pluginx_auto_api.lua */; };
-		7B686E451AC779E00057BD85 /* PluginManager.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E311AC779E00057BD85 /* PluginManager.lua */; };
-		7B686E461AC779E00057BD85 /* PluginProtocol.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E321AC779E00057BD85 /* PluginProtocol.lua */; };
-		7B686E471AC779E00057BD85 /* ProtocolAds.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E331AC779E00057BD85 /* ProtocolAds.lua */; };
-		7B686E481AC779E00057BD85 /* ProtocolAnalytics.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E341AC779E00057BD85 /* ProtocolAnalytics.lua */; };
-		7B686E491AC779E00057BD85 /* ProtocolIAP.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E351AC779E00057BD85 /* ProtocolIAP.lua */; };
-		7B686E4A1AC779E00057BD85 /* ProtocolShare.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E361AC779E00057BD85 /* ProtocolShare.lua */; };
-		7B686E4B1AC779E00057BD85 /* ProtocolSocial.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E371AC779E00057BD85 /* ProtocolSocial.lua */; };
-		7B686E4C1AC779E00057BD85 /* ProtocolUser.lua in Resources */ = {isa = PBXBuildFile; fileRef = 7B686E381AC779E00057BD85 /* ProtocolUser.lua */; };
-		7B686E4D1AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B686E391AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.cpp */; };
-		7B686E4E1AC779E00057BD85 /* lua_pluginx_basic_conversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B686E3C1AC779E00057BD85 /* lua_pluginx_basic_conversions.cpp */; };
-		7B686E4F1AC779E00057BD85 /* lua_pluginx_manual_callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B686E3E1AC779E00057BD85 /* lua_pluginx_manual_callback.cpp */; };
-		7B686E501AC779E00057BD85 /* lua_pluginx_manual_protocols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B686E401AC779E00057BD85 /* lua_pluginx_manual_protocols.cpp */; };
-		7BD0C02C1AD70B3100380667 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD0C02B1AD70B3100380667 /* FacebookSDK.framework */; };
+		7B25B2EA1AC74494002BE2FF /* libPluginFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B25B2A71AC73712002BE2FF /* libPluginFacebook.a */; };
+		7B25B2EB1AC74494002BE2FF /* libPluginProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B25B2A11AC736FA002BE2FF /* libPluginProtocol.a */; };
+		7B39C4311AD6FF1400F70DC8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B39C4301AD6FF1400F70DC8 /* FacebookSDK.framework */; };
+		7B4BEF461AC5A10600FDCE82 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7B4BEF451AC5A10600FDCE82 /* icon.icns */; };
+		7B656ED11AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B656EB21AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.cpp */; };
+		7B656ED31AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B656EB51AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.cpp */; };
+		7B656ED51AC74F9600DBBEF2 /* lua_pluginx_manual_callback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B656EB71AC74F9600DBBEF2 /* lua_pluginx_manual_callback.cpp */; };
+		7B656ED71AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B656EB91AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.cpp */; };
+		7B686E131AC7577C0057BD85 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B686E121AC7577C0057BD85 /* GameController.framework */; };
 		C03781B918BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BA18BF655400FE4F13 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C03781B718BF655400FE4F13 /* res */; };
 		C03781BB18BF655400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03781B818BF655400FE4F13 /* src */; };
@@ -139,30 +128,30 @@
 			remoteGlobalIDString = A07A4D641783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
-		7B686E1E1AC778670057BD85 /* PBXContainerItemProxy */ = {
+		7B25B2A01AC736FA002BE2FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7B686E1A1AC778660057BD85 /* PluginProtocol.xcodeproj */;
+			containerPortal = 7B25B29C1AC736FA002BE2FF /* PluginProtocol.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FA09A321168ADBC2008C1C7B;
 			remoteInfo = PluginProtocol;
 		};
-		7B686E241AC778820057BD85 /* PBXContainerItemProxy */ = {
+		7B25B2A61AC73712002BE2FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7B686E201AC778820057BD85 /* PluginFacebook.xcodeproj */;
+			containerPortal = 7B25B2A21AC73711002BE2FF /* PluginFacebook.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BA34A75D195AA8C7002D0ECD;
 			remoteInfo = PluginFacebook;
 		};
-		7B7E2D051AC783AD00A9AA11 /* PBXContainerItemProxy */ = {
+		7B25B2AA1AC737F2002BE2FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7B686E1A1AC778660057BD85 /* PluginProtocol.xcodeproj */;
+			containerPortal = 7B25B29C1AC736FA002BE2FF /* PluginProtocol.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = FA09A320168ADBC2008C1C7B;
 			remoteInfo = PluginProtocol;
 		};
-		7B7E2D071AC783AD00A9AA11 /* PBXContainerItemProxy */ = {
+		7B25B2AC1AC737FA002BE2FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7B686E201AC778820057BD85 /* PluginFacebook.xcodeproj */;
+			containerPortal = 7B25B2A21AC73711002BE2FF /* PluginFacebook.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BA34A75C195AA8C7002D0ECD;
 			remoteInfo = PluginFacebook;
@@ -194,7 +183,6 @@
 		5023811617EBBCAC00990C9B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		5023811717EBBCAC00990C9B /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
 		5023816B17EBBCE400990C9B /* PokerChipsGenius Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokerChipsGenius Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5023817217EBBE3400990C9B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		5023817317EBBE3400990C9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5023817517EBBE3400990C9B /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		5023817917EBBE8300990C9B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
@@ -210,42 +198,32 @@
 		50D7C96F17EBBEEC005D0B91 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		521A8E6819F0C3AC00D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		521A8E6919F0C3AC00D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
-		7B686E1A1AC778660057BD85 /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = "../../cocos2d-x/plugin/protocols/proj.ios/PluginProtocol.xcodeproj"; sourceTree = "<group>"; };
-		7B686E201AC778820057BD85 /* PluginFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebook.xcodeproj; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/PluginFacebook.xcodeproj"; sourceTree = "<group>"; };
-		7B686E281AC778C10057BD85 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
-		7B686E2E1AC779E00057BD85 /* AgentManager.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AgentManager.lua; sourceTree = "<group>"; };
-		7B686E2F1AC779E00057BD85 /* FacebookAgent.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FacebookAgent.lua; sourceTree = "<group>"; };
-		7B686E301AC779E00057BD85 /* lua_cocos2dx_pluginx_auto_api.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lua_cocos2dx_pluginx_auto_api.lua; sourceTree = "<group>"; };
-		7B686E311AC779E00057BD85 /* PluginManager.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PluginManager.lua; sourceTree = "<group>"; };
-		7B686E321AC779E00057BD85 /* PluginProtocol.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PluginProtocol.lua; sourceTree = "<group>"; };
-		7B686E331AC779E00057BD85 /* ProtocolAds.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolAds.lua; sourceTree = "<group>"; };
-		7B686E341AC779E00057BD85 /* ProtocolAnalytics.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolAnalytics.lua; sourceTree = "<group>"; };
-		7B686E351AC779E00057BD85 /* ProtocolIAP.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolIAP.lua; sourceTree = "<group>"; };
-		7B686E361AC779E00057BD85 /* ProtocolShare.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolShare.lua; sourceTree = "<group>"; };
-		7B686E371AC779E00057BD85 /* ProtocolSocial.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolSocial.lua; sourceTree = "<group>"; };
-		7B686E381AC779E00057BD85 /* ProtocolUser.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProtocolUser.lua; sourceTree = "<group>"; };
-		7B686E391AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_cocos2dx_pluginx_auto.cpp; sourceTree = "<group>"; };
-		7B686E3A1AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_cocos2dx_pluginx_auto.hpp; sourceTree = "<group>"; };
-		7B686E3C1AC779E00057BD85 /* lua_pluginx_basic_conversions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_basic_conversions.cpp; sourceTree = "<group>"; };
-		7B686E3D1AC779E00057BD85 /* lua_pluginx_basic_conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_basic_conversions.h; sourceTree = "<group>"; };
-		7B686E3E1AC779E00057BD85 /* lua_pluginx_manual_callback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_manual_callback.cpp; sourceTree = "<group>"; };
-		7B686E3F1AC779E00057BD85 /* lua_pluginx_manual_callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_manual_callback.h; sourceTree = "<group>"; };
-		7B686E401AC779E00057BD85 /* lua_pluginx_manual_protocols.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_manual_protocols.cpp; sourceTree = "<group>"; };
-		7B686E411AC779E00057BD85 /* lua_pluginx_manual_protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_manual_protocols.h; sourceTree = "<group>"; };
-		7B686E521AC779F60057BD85 /* AgentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentManager.h; sourceTree = "<group>"; };
-		7B686E531AC779F60057BD85 /* FacebookAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAgent.h; sourceTree = "<group>"; };
-		7B686E541AC779F60057BD85 /* iOSIAPAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSIAPAgent.h; sourceTree = "<group>"; };
-		7B686E551AC779F60057BD85 /* PluginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginFactory.h; sourceTree = "<group>"; };
-		7B686E561AC779F60057BD85 /* PluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
-		7B686E571AC779F60057BD85 /* PluginParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginParam.h; sourceTree = "<group>"; };
-		7B686E581AC779F60057BD85 /* PluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginProtocol.h; sourceTree = "<group>"; };
-		7B686E591AC779F60057BD85 /* ProtocolAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAds.h; sourceTree = "<group>"; };
-		7B686E5A1AC779F60057BD85 /* ProtocolAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAnalytics.h; sourceTree = "<group>"; };
-		7B686E5B1AC779F60057BD85 /* ProtocolIAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolIAP.h; sourceTree = "<group>"; };
-		7B686E5C1AC779F70057BD85 /* ProtocolShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolShare.h; sourceTree = "<group>"; };
-		7B686E5D1AC779F70057BD85 /* ProtocolSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolSocial.h; sourceTree = "<group>"; };
-		7B686E5E1AC779F70057BD85 /* ProtocolUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolUser.h; sourceTree = "<group>"; };
-		7BD0C02B1AD70B3100380667 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/FacebookSDK.framework"; sourceTree = "<group>"; };
+		7B25B29C1AC736FA002BE2FF /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = "../../cocos2d-x/plugin/protocols/proj.ios/PluginProtocol.xcodeproj"; sourceTree = "<group>"; };
+		7B25B2A21AC73711002BE2FF /* PluginFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebook.xcodeproj; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/PluginFacebook.xcodeproj"; sourceTree = "<group>"; };
+		7B25B2ED1AC745D3002BE2FF /* AgentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentManager.h; sourceTree = "<group>"; };
+		7B25B2EE1AC745D3002BE2FF /* FacebookAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAgent.h; sourceTree = "<group>"; };
+		7B25B2EF1AC745D3002BE2FF /* iOSIAPAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSIAPAgent.h; sourceTree = "<group>"; };
+		7B25B2F01AC745D3002BE2FF /* PluginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginFactory.h; sourceTree = "<group>"; };
+		7B25B2F11AC745D3002BE2FF /* PluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
+		7B25B2F21AC745D3002BE2FF /* PluginParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginParam.h; sourceTree = "<group>"; };
+		7B25B2F31AC745D3002BE2FF /* PluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginProtocol.h; sourceTree = "<group>"; };
+		7B25B2F41AC745D3002BE2FF /* ProtocolAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAds.h; sourceTree = "<group>"; };
+		7B25B2F51AC745D3002BE2FF /* ProtocolAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAnalytics.h; sourceTree = "<group>"; };
+		7B25B2F61AC745D3002BE2FF /* ProtocolIAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolIAP.h; sourceTree = "<group>"; };
+		7B25B2F71AC745D3002BE2FF /* ProtocolShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolShare.h; sourceTree = "<group>"; };
+		7B25B2F81AC745D3002BE2FF /* ProtocolSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolSocial.h; sourceTree = "<group>"; };
+		7B25B2F91AC745D3002BE2FF /* ProtocolUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolUser.h; sourceTree = "<group>"; };
+		7B39C4301AD6FF1400F70DC8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../cocos2d-x/plugin/plugins/facebook/proj.ios/FacebookSDK.framework"; sourceTree = "<group>"; };
+		7B4BEF451AC5A10600FDCE82 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		7B656EB21AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_cocos2dx_pluginx_auto.cpp; sourceTree = "<group>"; };
+		7B656EB31AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_cocos2dx_pluginx_auto.hpp; sourceTree = "<group>"; };
+		7B656EB51AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_basic_conversions.cpp; sourceTree = "<group>"; };
+		7B656EB61AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_basic_conversions.h; sourceTree = "<group>"; };
+		7B656EB71AC74F9600DBBEF2 /* lua_pluginx_manual_callback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_manual_callback.cpp; sourceTree = "<group>"; };
+		7B656EB81AC74F9600DBBEF2 /* lua_pluginx_manual_callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_manual_callback.h; sourceTree = "<group>"; };
+		7B656EB91AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_pluginx_manual_protocols.cpp; sourceTree = "<group>"; };
+		7B656EBA1AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_pluginx_manual_protocols.h; sourceTree = "<group>"; };
+		7B686E121AC7577C0057BD85 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_lua_bindings.xcodeproj; path = "../../cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/cocos2d_lua_bindings.xcodeproj"; sourceTree = "<group>"; };
 		C03781B718BF655400FE4F13 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../../res; sourceTree = "<group>"; };
 		C03781B818BF655400FE4F13 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../src; sourceTree = "<group>"; };
@@ -288,10 +266,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD0C02C1AD70B3100380667 /* FacebookSDK.framework in Frameworks */,
-				7B686E291AC778C10057BD85 /* GameController.framework in Frameworks */,
-				7B686E261AC778B40057BD85 /* libPluginFacebook.a in Frameworks */,
-				7B686E271AC778B40057BD85 /* libPluginProtocol.a in Frameworks */,
+				7B39C4311AD6FF1400F70DC8 /* FacebookSDK.framework in Frameworks */,
+				7B686E131AC7577C0057BD85 /* GameController.framework in Frameworks */,
+				7B25B2EA1AC74494002BE2FF /* libPluginFacebook.a in Frameworks */,
+				7B25B2EB1AC74494002BE2FF /* libPluginProtocol.a in Frameworks */,
 				15427C5B198F1E0100DC375D /* libluacocos2d iOS.a in Frameworks */,
 				15427C5A198F1DF000DC375D /* libcocos2d iOS.a in Frameworks */,
 				15AECE29195D482800907DB0 /* MediaPlayer.framework in Frameworks */,
@@ -324,7 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				5091734A17ECE18300D62437 /* Icons */,
-				7BD0C02A1AD70A8A00380667 /* Splashes */,
+				7BC979901AD6CD0700530DD5 /* Splashes */,
 				5023810717EBBCAC00990C9B /* AppController.h */,
 				5023810817EBBCAC00990C9B /* AppController.mm */,
 				5023811317EBBCAC00990C9B /* Info.plist */,
@@ -340,7 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				C06E23C318CEF9740093C81A /* main.cpp */,
-				5023817217EBBE3400990C9B /* icon.icns */,
+				7B4BEF451AC5A10600FDCE82 /* icon.icns */,
 				5023817317EBBE3400990C9B /* Info.plist */,
 				5023817517EBBE3400990C9B /* Prefix.pch */,
 			);
@@ -367,99 +345,80 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
-		7B686E191AC7783F0057BD85 /* plugins */ = {
+		7B25B29D1AC736FA002BE2FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B686E511AC779F60057BD85 /* include */,
-				7B686E2C1AC779E00057BD85 /* auto */,
-				7B686E3B1AC779E00057BD85 /* manual */,
-				7B686E1A1AC778660057BD85 /* PluginProtocol.xcodeproj */,
-				7B686E201AC778820057BD85 /* PluginFacebook.xcodeproj */,
-			);
-			name = plugins;
-			sourceTree = "<group>";
-		};
-		7B686E1B1AC778660057BD85 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7B686E1F1AC778670057BD85 /* libPluginProtocol.a */,
+				7B25B2A11AC736FA002BE2FF /* libPluginProtocol.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B686E211AC778820057BD85 /* Products */ = {
+		7B25B2A31AC73711002BE2FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B686E251AC778820057BD85 /* libPluginFacebook.a */,
+				7B25B2A71AC73712002BE2FF /* libPluginFacebook.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B686E2C1AC779E00057BD85 /* auto */ = {
+		7B25B2EC1AC745D3002BE2FF /* include */ = {
 			isa = PBXGroup;
 			children = (
-				7B686E2D1AC779E00057BD85 /* api */,
-				7B686E391AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.cpp */,
-				7B686E3A1AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.hpp */,
-			);
-			name = auto;
-			path = "../../cocos2d-x/plugin/luabindings/auto";
-			sourceTree = "<group>";
-		};
-		7B686E2D1AC779E00057BD85 /* api */ = {
-			isa = PBXGroup;
-			children = (
-				7B686E2E1AC779E00057BD85 /* AgentManager.lua */,
-				7B686E2F1AC779E00057BD85 /* FacebookAgent.lua */,
-				7B686E301AC779E00057BD85 /* lua_cocos2dx_pluginx_auto_api.lua */,
-				7B686E311AC779E00057BD85 /* PluginManager.lua */,
-				7B686E321AC779E00057BD85 /* PluginProtocol.lua */,
-				7B686E331AC779E00057BD85 /* ProtocolAds.lua */,
-				7B686E341AC779E00057BD85 /* ProtocolAnalytics.lua */,
-				7B686E351AC779E00057BD85 /* ProtocolIAP.lua */,
-				7B686E361AC779E00057BD85 /* ProtocolShare.lua */,
-				7B686E371AC779E00057BD85 /* ProtocolSocial.lua */,
-				7B686E381AC779E00057BD85 /* ProtocolUser.lua */,
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
-		7B686E3B1AC779E00057BD85 /* manual */ = {
-			isa = PBXGroup;
-			children = (
-				7B686E3C1AC779E00057BD85 /* lua_pluginx_basic_conversions.cpp */,
-				7B686E3D1AC779E00057BD85 /* lua_pluginx_basic_conversions.h */,
-				7B686E3E1AC779E00057BD85 /* lua_pluginx_manual_callback.cpp */,
-				7B686E3F1AC779E00057BD85 /* lua_pluginx_manual_callback.h */,
-				7B686E401AC779E00057BD85 /* lua_pluginx_manual_protocols.cpp */,
-				7B686E411AC779E00057BD85 /* lua_pluginx_manual_protocols.h */,
-			);
-			name = manual;
-			path = "../../cocos2d-x/plugin/luabindings/manual";
-			sourceTree = "<group>";
-		};
-		7B686E511AC779F60057BD85 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				7B686E521AC779F60057BD85 /* AgentManager.h */,
-				7B686E531AC779F60057BD85 /* FacebookAgent.h */,
-				7B686E541AC779F60057BD85 /* iOSIAPAgent.h */,
-				7B686E551AC779F60057BD85 /* PluginFactory.h */,
-				7B686E561AC779F60057BD85 /* PluginManager.h */,
-				7B686E571AC779F60057BD85 /* PluginParam.h */,
-				7B686E581AC779F60057BD85 /* PluginProtocol.h */,
-				7B686E591AC779F60057BD85 /* ProtocolAds.h */,
-				7B686E5A1AC779F60057BD85 /* ProtocolAnalytics.h */,
-				7B686E5B1AC779F60057BD85 /* ProtocolIAP.h */,
-				7B686E5C1AC779F70057BD85 /* ProtocolShare.h */,
-				7B686E5D1AC779F70057BD85 /* ProtocolSocial.h */,
-				7B686E5E1AC779F70057BD85 /* ProtocolUser.h */,
+				7B25B2ED1AC745D3002BE2FF /* AgentManager.h */,
+				7B25B2EE1AC745D3002BE2FF /* FacebookAgent.h */,
+				7B25B2EF1AC745D3002BE2FF /* iOSIAPAgent.h */,
+				7B25B2F01AC745D3002BE2FF /* PluginFactory.h */,
+				7B25B2F11AC745D3002BE2FF /* PluginManager.h */,
+				7B25B2F21AC745D3002BE2FF /* PluginParam.h */,
+				7B25B2F31AC745D3002BE2FF /* PluginProtocol.h */,
+				7B25B2F41AC745D3002BE2FF /* ProtocolAds.h */,
+				7B25B2F51AC745D3002BE2FF /* ProtocolAnalytics.h */,
+				7B25B2F61AC745D3002BE2FF /* ProtocolIAP.h */,
+				7B25B2F71AC745D3002BE2FF /* ProtocolShare.h */,
+				7B25B2F81AC745D3002BE2FF /* ProtocolSocial.h */,
+				7B25B2F91AC745D3002BE2FF /* ProtocolUser.h */,
 			);
 			name = include;
 			path = "../../cocos2d-x/plugin/protocols/include";
 			sourceTree = "<group>";
 		};
-		7BD0C02A1AD70A8A00380667 /* Splashes */ = {
+		7B656EA41AC74F1100DBBEF2 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				7B25B2A21AC73711002BE2FF /* PluginFacebook.xcodeproj */,
+				7B25B29C1AC736FA002BE2FF /* PluginProtocol.xcodeproj */,
+				7B25B2EC1AC745D3002BE2FF /* include */,
+				7B656EA51AC74F9600DBBEF2 /* auto */,
+				7B656EB41AC74F9600DBBEF2 /* manual */,
+			);
+			name = plugins;
+			sourceTree = "<group>";
+		};
+		7B656EA51AC74F9600DBBEF2 /* auto */ = {
+			isa = PBXGroup;
+			children = (
+				7B656EB21AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.cpp */,
+				7B656EB31AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.hpp */,
+			);
+			name = auto;
+			path = "../../cocos2d-x/plugin/luabindings/auto";
+			sourceTree = "<group>";
+		};
+		7B656EB41AC74F9600DBBEF2 /* manual */ = {
+			isa = PBXGroup;
+			children = (
+				7B656EB51AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.cpp */,
+				7B656EB61AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.h */,
+				7B656EB71AC74F9600DBBEF2 /* lua_pluginx_manual_callback.cpp */,
+				7B656EB81AC74F9600DBBEF2 /* lua_pluginx_manual_callback.h */,
+				7B656EB91AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.cpp */,
+				7B656EBA1AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.h */,
+			);
+			name = manual;
+			path = "../../cocos2d-x/plugin/luabindings/manual";
+			sourceTree = "<group>";
+		};
+		7BC979901AD6CD0700530DD5 /* Splashes */ = {
 			isa = PBXGroup;
 			children = (
 				5023810A17EBBCAC00990C9B /* Default.png */,
@@ -485,7 +444,7 @@
 			children = (
 				C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */,
 				15A8A4031834BDA200142BE0 /* cocos2d_libs.xcodeproj */,
-				7B686E191AC7783F0057BD85 /* plugins */,
+				7B656EA41AC74F1100DBBEF2 /* plugins */,
 				5023810617EBBCAC00990C9B /* ios */,
 				5023817117EBBE3400990C9B /* mac */,
 				F293BB7C15EB830F00256477 /* Classes */,
@@ -507,8 +466,8 @@
 		F293B3CB15EB7BE500256477 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7BD0C02B1AD70B3100380667 /* FacebookSDK.framework */,
-				7B686E281AC778C10057BD85 /* GameController.framework */,
+				7B39C4301AD6FF1400F70DC8 /* FacebookSDK.framework */,
+				7B686E121AC7577C0057BD85 /* GameController.framework */,
 				15AECE28195D482800907DB0 /* MediaPlayer.framework */,
 				15A8A4871834C90E00142BE0 /* libcurl.dylib */,
 				D6B061341803AC000077942B /* CoreMotion.framework */,
@@ -586,8 +545,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				7B7E2D061AC783AD00A9AA11 /* PBXTargetDependency */,
-				7B7E2D081AC783AD00A9AA11 /* PBXTargetDependency */,
+				7B25B2AD1AC737FA002BE2FF /* PBXTargetDependency */,
+				7B25B2AB1AC737F2002BE2FF /* PBXTargetDependency */,
 				15427C65198F1E7400DC375D /* PBXTargetDependency */,
 				15427C67198F1E7400DC375D /* PBXTargetDependency */,
 			);
@@ -629,12 +588,12 @@
 					ProjectRef = C03781AE18BF654500FE4F13 /* cocos2d_lua_bindings.xcodeproj */;
 				},
 				{
-					ProductGroup = 7B686E211AC778820057BD85 /* Products */;
-					ProjectRef = 7B686E201AC778820057BD85 /* PluginFacebook.xcodeproj */;
+					ProductGroup = 7B25B2A31AC73711002BE2FF /* Products */;
+					ProjectRef = 7B25B2A21AC73711002BE2FF /* PluginFacebook.xcodeproj */;
 				},
 				{
-					ProductGroup = 7B686E1B1AC778660057BD85 /* Products */;
-					ProjectRef = 7B686E1A1AC778660057BD85 /* PluginProtocol.xcodeproj */;
+					ProductGroup = 7B25B29D1AC736FA002BE2FF /* Products */;
+					ProjectRef = 7B25B29C1AC736FA002BE2FF /* PluginProtocol.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -674,18 +633,18 @@
 			remoteRef = 15A8A4241834BDA200142BE0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7B686E1F1AC778670057BD85 /* libPluginProtocol.a */ = {
+		7B25B2A11AC736FA002BE2FF /* libPluginProtocol.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libPluginProtocol.a;
-			remoteRef = 7B686E1E1AC778670057BD85 /* PBXContainerItemProxy */;
+			remoteRef = 7B25B2A01AC736FA002BE2FF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7B686E251AC778820057BD85 /* libPluginFacebook.a */ = {
+		7B25B2A71AC73712002BE2FF /* libPluginFacebook.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libPluginFacebook.a;
-			remoteRef = 7B686E241AC778820057BD85 /* PBXContainerItemProxy */;
+			remoteRef = 7B25B2A61AC73712002BE2FF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -697,7 +656,7 @@
 			files = (
 				C03781BA18BF655400FE4F13 /* res in Resources */,
 				C03781BC18BF655400FE4F13 /* src in Resources */,
-				5023817617EBBE3400990C9B /* icon.icns in Resources */,
+				7B4BEF461AC5A10600FDCE82 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,37 +664,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B686E441AC779E00057BD85 /* lua_cocos2dx_pluginx_auto_api.lua in Resources */,
-				7B686E4C1AC779E00057BD85 /* ProtocolUser.lua in Resources */,
 				15A8A4491834C64F00142BE0 /* Icon-114.png in Resources */,
 				5023811D17EBBCAC00990C9B /* Icon-120.png in Resources */,
 				5091733B17ECE17A00D62437 /* Icon-100.png in Resources */,
 				5023811B17EBBCAC00990C9B /* Default@2x.png in Resources */,
-				7B686E4B1AC779E00057BD85 /* ProtocolSocial.lua in Resources */,
 				5091733617ECE17A00D62437 /* Icon-29.png in Resources */,
-				7B686E421AC779E00057BD85 /* AgentManager.lua in Resources */,
-				7B686E4A1AC779E00057BD85 /* ProtocolShare.lua in Resources */,
 				5023811917EBBCAC00990C9B /* Default-568h@2x.png in Resources */,
 				5091733917ECE17A00D62437 /* Icon-58.png in Resources */,
 				521A8E6B19F0C3AC00D177D7 /* Default-736h@3x.png in Resources */,
 				521A8E6A19F0C3AC00D177D7 /* Default-667h@2x.png in Resources */,
-				7B686E451AC779E00057BD85 /* PluginManager.lua in Resources */,
 				5023811F17EBBCAC00990C9B /* Icon-152.png in Resources */,
 				5023812017EBBCAC00990C9B /* Icon-57.png in Resources */,
-				7B686E481AC779E00057BD85 /* ProtocolAnalytics.lua in Resources */,
 				C03781B918BF655400FE4F13 /* res in Resources */,
 				5023812217EBBCAC00990C9B /* Icon-76.png in Resources */,
 				5091733A17ECE17A00D62437 /* Icon-80.png in Resources */,
-				7B686E471AC779E00057BD85 /* ProtocolAds.lua in Resources */,
-				7B686E461AC779E00057BD85 /* PluginProtocol.lua in Resources */,
 				5091733717ECE17A00D62437 /* Icon-40.png in Resources */,
-				7B686E431AC779E00057BD85 /* FacebookAgent.lua in Resources */,
 				5023811E17EBBCAC00990C9B /* Icon-144.png in Resources */,
 				5023811A17EBBCAC00990C9B /* Default.png in Resources */,
 				C03781BB18BF655400FE4F13 /* src in Resources */,
 				5091733817ECE17A00D62437 /* Icon-50.png in Resources */,
 				5023812117EBBCAC00990C9B /* Icon-72.png in Resources */,
-				7B686E491AC779E00057BD85 /* ProtocolIAP.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,11 +735,11 @@
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
 				5023812417EBBCAC00990C9B /* main.m in Sources */,
-				7B686E4F1AC779E00057BD85 /* lua_pluginx_manual_callback.cpp in Sources */,
-				7B686E501AC779E00057BD85 /* lua_pluginx_manual_protocols.cpp in Sources */,
-				7B686E4D1AC779E00057BD85 /* lua_cocos2dx_pluginx_auto.cpp in Sources */,
+				7B656ED51AC74F9600DBBEF2 /* lua_pluginx_manual_callback.cpp in Sources */,
+				7B656ED71AC74F9600DBBEF2 /* lua_pluginx_manual_protocols.cpp in Sources */,
+				7B656ED11AC74F9600DBBEF2 /* lua_cocos2dx_pluginx_auto.cpp in Sources */,
 				5023811817EBBCAC00990C9B /* AppController.mm in Sources */,
-				7B686E4E1AC779E00057BD85 /* lua_pluginx_basic_conversions.cpp in Sources */,
+				7B656ED31AC74F9600DBBEF2 /* lua_pluginx_basic_conversions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,15 +766,15 @@
 			name = "libcocos2d Mac";
 			targetProxy = 15427C72198F1F4D00DC375D /* PBXContainerItemProxy */;
 		};
-		7B7E2D061AC783AD00A9AA11 /* PBXTargetDependency */ = {
+		7B25B2AB1AC737F2002BE2FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PluginProtocol;
-			targetProxy = 7B7E2D051AC783AD00A9AA11 /* PBXContainerItemProxy */;
+			targetProxy = 7B25B2AA1AC737F2002BE2FF /* PBXContainerItemProxy */;
 		};
-		7B7E2D081AC783AD00A9AA11 /* PBXTargetDependency */ = {
+		7B25B2AD1AC737FA002BE2FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PluginFacebook;
-			targetProxy = 7B7E2D071AC783AD00A9AA11 /* PBXContainerItemProxy */;
+			targetProxy = 7B25B2AC1AC737FA002BE2FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -940,14 +888,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/sutanisurawu/Documents/Projects/GitHub/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios/sdk",
-					"/Users/sutanisurawu/Documents/Projects/GitHub/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
+					"/Users/sutanisurawu/Documents/Projects/Cocos2D-X/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
+					"/Users/sutanisurawu/Documents/Projects/PokerDiscovery/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -973,14 +922,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/sutanisurawu/Documents/Projects/GitHub/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios/sdk",
-					"/Users/sutanisurawu/Documents/Projects/GitHub/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
+					"/Users/sutanisurawu/Documents/Projects/Cocos2D-X/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
+					"/Users/sutanisurawu/Documents/Projects/PokerDiscovery/PokerChipsGenius/frameworks/cocos2d-x/plugin/plugins/facebook/proj.ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;

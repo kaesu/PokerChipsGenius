@@ -183,7 +183,7 @@ end
 
 function SceneManager:onInterfaceOrientationDidChanged()
 	self:updateScreens()
-	SaveManager:shared():saveData()
+--	SaveManager:shared():saveData()
 end
 
 ------------------------------------------------------------------------------------------

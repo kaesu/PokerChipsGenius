@@ -15488,15 +15488,21 @@ int lua_cocos2dx_FileUtils_writeStringToFile(lua_State* tolua_S)
     {
         std::string arg0;
         std::string arg1;
-        
+
         ok &= luaval_to_std_string(tolua_S, 2,&arg0, "cc.FileUtils:writeStringToFile");
-        
         ok &= luaval_to_std_string(tolua_S, 3,&arg1, "cc.FileUtils:writeStringToFile");
+
         if(!ok)
         {
             tolua_error(tolua_S,"invalid arguments in function 'lua_cocos2dx_FileUtils_writeStringToFile'", nullptr);
             return 0;
         }
+
+        size_t len;
+        const char *str = lua_tolstring(tolua_S, 2, &len);
+        arg0 = std::string(str, len);
+        printf("writeStringToFile len: %d\n",(int)len);
+
         bool ret = cobj->writeStringToFile(arg0, arg1);
         tolua_pushboolean(tolua_S,(bool)ret);
         return 1;

@@ -753,9 +753,9 @@ int lua_pluginx_protocols_FacebookAgent_login(lua_State* tolua_S)
     cocos2d::plugin::FacebookAgent* cobj = nullptr;
     bool ok = true;
 
-#if COCOS2D_DEBUG >= 1
+//#if COCOS2D_DEBUG >= 1
     tolua_Error tolua_err;
-#endif
+//#endif
 
 
 #if COCOS2D_DEBUG >= 1

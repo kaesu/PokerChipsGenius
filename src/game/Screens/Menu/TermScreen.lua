@@ -8,7 +8,7 @@ function TermScreen:onInit()
 	SceneManager:shared():getScreenNamed('MenuScreen'):setLButtonStyle('hidden')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setRButtonStyle('close')
 	SceneManager:shared():getScreenNamed('MenuScreen'):setOnRButtonClick(function()
-		startScene('JoinWithEmailScreen2')
+		SceneManager:shared():startScene('JoinWithEmailScreen2')
 	end)
 end
 
